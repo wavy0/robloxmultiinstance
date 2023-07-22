@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace MultipleRoblox
+namespace RobloxMultiInstance
 {
     internal class Program
     {
