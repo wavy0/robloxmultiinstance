@@ -8,7 +8,7 @@ namespace MultipleRoblox
         static void Main()
         {
             Console.WriteLine("Starting multi-instance in 3 seconds.");
-            Thread.Sleep(3001);
+            Thread.Sleep(3000);
             new Mutex(true, "ROBLOX_singletonMutex");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Multi-instance started!");
